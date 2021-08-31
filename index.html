@@ -7,7 +7,12 @@
   <body>
     <header>
       <!-- Head and Logo -->
-      <section></section>
+      <section>
+        <div>
+          <img id="headlogo" src="img/pattern.png" alt="pattern" />
+          <img id="logo" src="img/logo.svg" alt="logo" />
+        </div>
+      </section>
       <!-- Titolo  -->
       <section>
         <h1>
@@ -19,16 +24,15 @@
       </section>
       <!-- Foto -->
       <section>
-        <div">
-          <img class = "foto_par_1" src="img/tim-1.jpg" alt="tim-1" />
-          <img class = "foto_par_1" src="img/tim-2.jpg" alt="tim-2" />
-        </div>
-
         <div>
+          <img class="foto_par_1" src="img/tim-1.jpg" alt="tim-1" />
+          <img class="foto_par_1" src="img/tim-2.jpg" alt="tim-2" />
+        </div>
+        <!-- Descrizione -->
+        <div class="descrizionefoto">
           <p>
             1st Photo Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          </p>
-          <p>
+            <br />
             2nd Photo Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </p>
         </div>
@@ -41,9 +45,12 @@
       <section>
         <div>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis
-          itaque <span>ipsam dolorum soluta voluptatem, velit</span> inventore
-          doloremque quam totam qui ducimus voluptas cupiditate. Corrupti sequi
-          vitae assumenda adipisci illo recusandae.
+          itaque
+          <span class="testogiallo"
+            >ipsam dolorum soluta voluptatem, velit</span
+          >
+          inventore doloremque quam totam qui ducimus voluptas cupiditate.
+          Corrupti sequi vitae assumenda adipisci illo recusandae.
         </div>
         <div>
           <ul>
@@ -72,14 +79,14 @@
       <section>
         <table>
           <thead>
-            <tr>
+            <tr class="theadblu">
               <th>lorem</th>
               <th>lorem</th>
               <th>lorem</th>
             </tr>
           </thead>
           <tbody>
-            <tr>
+            <tr class="tbodyazzurro">
               <td>lorem</td>
               <td>lorem</td>
               <td>lorem</td>
@@ -89,7 +96,7 @@
               <td>lorem</td>
               <td>lorem</td>
             </tr>
-            <tr>
+            <tr class="tbodyazzurro">
               <td>lorem</td>
               <td>lorem</td>
               <td>lorem</td>
@@ -103,18 +110,23 @@
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
           voluptatibus iure suscipit et explicabo illum.
-          <span>Tempore omnis reprehenderit</span> quia assumenda, alias maxime
-          culpa in quo! Iusto debitis placeat deserunt aliquid?
+          <span class="testogiallo">Tempore omnis reprehenderit</span> quia
+          assumenda, alias maxime culpa in quo! Iusto debitis placeat deserunt
+          aliquid?
         </p>
       </section>
     </main>
 
     <footer>
       <section>
-        <p>Potrebbero interessarti</p>
-        <div>
-          <img src="img/monitor.jpg" alt="" />
-          <img src="img/graph.jpg" alt="" />
+        <p class="potrebbero_interes">Potrebbero interessarti</p>
+        <div class="foto_par_1">
+          <img src="img/monitor.jpg" alt="monitor" />
+          <h3 class="txt-1">Lorem Inpsum dolor</h3>
+        </div>
+        <div class="foto_par_1">
+          <img src="img/graph.jpg" alt="graph" />
+          <h3 class="txt-2">Lorem Inpsum dolor</h3>
         </div>
       </section>
     </footer>
