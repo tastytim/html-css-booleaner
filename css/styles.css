@@ -1,0 +1,18 @@
+body {
+  width: 100%;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.foto_par_1 {
+    display: inline-block;
+}
+
+.testoblu{
+    color:cornflowerblue;
+}
+
+.date{
+    color:darkgray
+}
+
+
